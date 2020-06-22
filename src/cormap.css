@@ -1,0 +1,26 @@
+li{
+    display: flex;
+}
+
+span{
+    flex: 1;
+}
+
+ul,li{
+    margin: 0;
+    list-style: none;
+    padding: 5px 5px;
+}
+
+li:nth-child(odd){
+    background-color: aliceblue;
+}
+
+#map{
+    width:500px;
+    height:450px;
+    margin: 150px auto;
+    border:1px solid #ddd;
+    background-color: #AFEEEE    ;
+}
+
